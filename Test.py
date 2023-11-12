@@ -5,7 +5,7 @@ import sys
 
 print("""
       
-    Discord Chatter  
+    Discord Chatteer  
       
     [1] - Chat with Sal
     [2] - Exit
