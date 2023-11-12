@@ -5,7 +5,7 @@ import sys
 
 print("""
       
-    Discord Chatteer  
+    Discord Chatter  
       
     [1] - Chat with Sal
     [2] - Exit
@@ -51,11 +51,17 @@ print("""
         Notice: You can use the number 5 to go back and the number 0 to exit.
           
         """)
+
 def normal_message():
+    
     while True:
+        
         Y = input("You: ")
+        
         if Y == "1":
+            
             print("Going back....")
+        
         elif Y == "0":
             print("Exiting....")
             time.sleep(3)
